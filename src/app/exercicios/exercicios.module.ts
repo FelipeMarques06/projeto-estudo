@@ -1,17 +1,24 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ExercicioUmComponent } from './exercicio-um/exercicio-um.component';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 import { ExercicioDoisComponent } from './exercicio-dois/exercicio-dois.component';
+import { ExercicioUmComponent } from './exercicio-um/exercicio-um.component';
+import { ExerciciosRoutingModule } from './exercicios-routing.module';
+import { PacientesComponent } from './pacientes/pacientes.component';
 
 
 
 @NgModule({
   declarations: [
     ExercicioUmComponent,
-    ExercicioDoisComponent
+    ExercicioDoisComponent,
+    PacientesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ExerciciosRoutingModule
   ],
   exports: [
     ExercicioUmComponent,

@@ -1,5 +1,7 @@
 # ProjetoEstudo
 
+Projeto de Estudos de Angular pela SoulCode Academy.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
